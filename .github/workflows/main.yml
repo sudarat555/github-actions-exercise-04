@@ -43,5 +43,5 @@ jobs:
       - uses: akhileshns/heroku-deploy@v3.12.12
         with:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-          heroku_app_name: "sudarat-githun-actions-04"
+          heroku_app_name: "sudarat-github-actions-04"
           heroku_email: "61160125@go.buu.ac.th"
